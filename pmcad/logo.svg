@@ -1,27 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
-  <!-- 螃蟹的身体 -->
-  <circle cx="50" cy="50" r="20" fill="#FF6347" />
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  width="150"
+  height="150"
+>
+  <!-- 熊猫头部 -->
+  <circle cx="50" cy="50" r="40" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
 
-  <!-- 左钳 -->
-  <path d="M30 40 C20 30, 10 40, 15 50 C10 60, 20 70, 30 60 Z" fill="#FF6347" />
+  <!-- 左耳 -->
+  <ellipse cx="30" cy="20" rx="12" ry="15" fill="#000000" />
 
-  <!-- 右钳 -->
-  <path d="M70 40 C80 30, 90 40, 85 50 C90 60, 80 70, 70 60 Z" fill="#FF6347" />
+  <!-- 右耳 -->
+  <ellipse cx="70" cy="20" rx="12" ry="15" fill="#000000" />
 
-  <!-- 左腿 -->
-  <path d="M40 60 C30 65, 30 80, 40 75" stroke="#FF6347" stroke-width="3" fill="none" />
-  <path d="M35 70 C25 75, 25 90, 35 85" stroke="#FF6347" stroke-width="3" fill="none" />
+  <!-- 左眼圈 -->
+  <ellipse cx="35" cy="50" rx="10" ry="15" fill="#000000" />
+  <!-- 左眼 -->
+  <circle cx="35" cy="50" r="5" fill="gold" />
+  <text x="35" y="53" font-size="6" text-anchor="middle" fill="black" font-family="Arial">$</text>
 
-  <!-- 右腿 -->
-  <path d="M60 60 C70 65, 70 80, 60 75" stroke="#FF6347" stroke-width="3" fill="none" />
-  <path d="M65 70 C75 75, 75 90, 65 85" stroke="#FF6347" stroke-width="3" fill="none" />
+  <!-- 右眼圈 -->
+  <ellipse cx="65" cy="50" rx="10" ry="15" fill="#000000" />
+  <!-- 右眼 -->
+  <circle cx="65" cy="50" r="5" fill="gold" />
+  <text x="65" y="53" font-size="6" text-anchor="middle" fill="black" font-family="Arial">$</text>
 
-  <!-- 螃蟹的眼睛 -->
-  <circle cx="42" cy="45" r="3" fill="#FFFFFF" />
-  <circle cx="58" cy="45" r="3" fill="#FFFFFF" />
-  <circle cx="42" cy="45" r="1.5" fill="#000000" />
-  <circle cx="58" cy="45" r="1.5" fill="#000000" />
+  <!-- 鼻子 -->
+  <ellipse cx="50" cy="65" rx="5" ry="3" fill="#000000" />
 
-  <!-- 螃蟹的嘴 -->
-  <path d="M45 55 C50 60, 55 60, 55 55" stroke="#000000" stroke-width="2" fill="none" />
+  <!-- 嘴巴 -->
+  <path d="M45 68 Q50 75 55 68" stroke="#000000" stroke-width="2" fill="none" />
+
+  <!-- 脸上的腮红 -->
+  <circle cx="25" cy="65" r="5" fill="#FFB6C1" />
+  <circle cx="75" cy="65" r="5" fill="#FFB6C1" />
 </svg>
